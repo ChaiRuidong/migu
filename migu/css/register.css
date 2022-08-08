@@ -1,0 +1,190 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+body {
+    background: #fbfcfe;
+}
+
+/* 头部 */
+.header {
+    height: 75px;
+    background: #ffffff;
+    border-bottom: 1px solid #efefef;
+}
+
+header {
+    width: 960px;
+    height: 75px;
+    margin: 0px auto;
+}
+
+header h1 {
+    float: left;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+header img {
+    height: 32px;
+    width: 108px;
+}
+
+/* 主要内容 */
+main {
+
+    width: 960px;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 10px 0 rgb(160 180 222 / 10%);
+    border-radius: 8px;
+    margin: 40px auto;
+}
+
+.con {
+    width: 91.4%;
+    padding: 0 4.1% 80px 4.1%;
+    min-height: 400px;
+}
+
+main .con h1 {
+    font-size: 16px;
+    margin-bottom: 20px;
+    width: 100%;
+    overflow: hidden;
+    font-weight: normal;
+    color: #31363E;
+    border-bottom: 1px solid #EFEFEF;
+    line-height: 60px;
+}
+
+main .con .note1 {
+    font-size: 14px;
+    text-align: center;
+    padding: 50px 0 11px;
+    color: #95989C;
+    width: 68%;
+    margin: 0 auto;
+}
+
+.note1 h3 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #31363E;
+    padding-bottom: 18px;
+}
+
+.note1 p {
+    padding-bottom: 10px;
+    line-height: 1.5;
+}
+
+.former {
+    width: 97%;
+    position: relative;
+    padding-left: 3%;
+}
+
+.former .form-itme {
+    color: #343434;
+    font-size: 14px;
+    padding-left: 30.6%;
+    position: relative;
+    margin-top: 16px;
+}
+
+.former .form-itme label {
+    float: left;
+    width: 40.9%;
+    text-align: right;
+    margin-left: -43%;
+    line-height: 43px;
+    white-space: nowrap;
+    word-break: keep-all;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+input {
+    outline: none;
+}
+
+.txt {
+    display: inline-block;
+    width: 288px;
+    border: 1px solid #D5D5D5;
+    padding: 11px 10px;
+    color: #373737;
+    background-color: #fff;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.form-itme .txt2 {
+    width: 27%;
+    margin-right: 12px;
+    height: 19px;
+}
+
+.btn.disabled {
+    background: #fff;
+    border: 1px solid #D5D5D5;
+    color: #B0B3B5;
+    cursor: default;
+}
+
+.btn {
+    width: 106px;
+    height: 43px;
+    background: #fff;
+    border: 1px solid #e11377;
+    text-align: center;
+    display: inline-block;
+    color: #e11377;
+    font-size: 14px;
+    line-height: 43px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.form-itme .submit {
+    width: 53%;
+    margin-top: 14px;
+    height: 43px;
+    display: inline-block;
+    font-size: 14px;
+    color: #fff;
+    line-height: 43px;
+    background-color: #e11377;
+    border: 0;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+/* 底部 */
+.footer {
+    text-align: center;
+    padding: 18px 0;
+    background-color: #fbfcfe;
+    color: #74777A;
+    line-height: 20px;
+}
+
+.footer .pager {
+    width: 960px;
+    margin: 190px auto;
+    font-size: 12px;
+}
+
+.footer span {
+    margin: 0 8px;
+}
+
+.footer a {
+    text-decoration: none;
+    margin: 0 8px;
+    color: #74777A;
+}

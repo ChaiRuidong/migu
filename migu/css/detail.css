@@ -1,0 +1,484 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+/* 头部 */
+.headbox {
+    position: relative;
+    height: 58px;
+    padding-top: 12px;
+    background: #2a2a2a;
+}
+
+header {
+    position: relative;
+    z-index: 100;
+    width: 1400px;
+    margin: 0px auto;
+}
+
+header h1 {
+    float: left;
+    margin-top: 4px;
+    margin-right: 45px;
+}
+
+header h1 img {
+    width: 88px;
+    height: 40px;
+}
+
+.headbox a {
+    text-decoration: none;
+    color: #b1b5ad;
+    font-size: 16px;
+}
+
+.headbox a:hover {
+    color: #fff;
+    text-decoration: seashell;
+}
+
+/* 左导航 */
+header .h-left {
+    float: left;
+    position: relative;
+}
+
+header .h-left li {
+    float: left;
+    position: relative;
+    margin-right: 25px;
+}
+
+.action {
+    height: 4px;
+    width: 15px;
+    border-radius: 2px;
+    background: #fff;
+    margin: -10px auto;
+    display: none;
+}
+
+header .h-left li:hover .action {
+    display: block;
+    transition: all 500ms;
+}
+
+header .h-left li a {
+    display: block;
+    padding: 0 6px;
+    font-size: 16px;
+    line-height: 48px;
+    position: relative;
+    transition: all ease-in .15s;
+    color: rgba(255, 255, 255, .6);
+    opacity: 1;
+}
+
+/* 右导航 */
+header .h-right {
+    float: right;
+    position: relative;
+}
+
+header .h-right .hr-title {
+    float: left;
+    margin-left: 20px;
+}
+
+header .h-right .hr-title:hover .action {
+    display: block;
+    transition: all 1000ms;
+}
+
+header .h-right .hr-title:hover .txt {
+    color: #fff;
+}
+
+header .h-right .hr-title .txt {
+    display: block;
+    padding: 0 6px;
+    font-size: 14px;
+    line-height: 48px;
+    position: relative;
+    transition: all ease-in .15s;
+    color: rgba(255, 255, 255, .6);
+    opacity: 1;
+}
+
+header .h-right #app a .appicon {
+    width: 23px;
+    height: 23px;
+    margin-top: 12px;
+    border-radius: 50%;
+}
+
+header .h-right #login a .loginicon {
+    width: 23px;
+    height: 23px;
+    margin-top: 12px;
+    border-radius: 50%;
+}
+
+/* <!-- 登录弹出框 --> */
+#login .login-hover {
+    position: absolute;
+    right: 0px;
+    top: 50px;
+    width: 360px;
+    height: 196px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%);
+    display: none;
+    overflow: 'hidden';
+}
+
+#login .login-hover .p1 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+header .h-right #login:hover .login-hover {
+    display: block;
+}
+
+#login .login-hover ol {
+    width: 300px;
+    height: 55px;
+    margin: 30px 30px 25px;
+}
+
+#login .login-hover ol li {
+    float: left;
+    margin-right: 24px;
+    text-align: center;
+}
+
+#login .login-hover ol li:last-child {
+    margin-right: 0;
+}
+
+#login .login-hover ol li:hover {
+    color: #e91e63;
+}
+
+#login .login-hover ol li img {
+    width: 20px;
+    height: 20px;
+}
+
+
+#login .login-hover ol li p {
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#login .login-hover .h-footer {
+    text-align: center;
+    padding: 10px 10px;
+}
+
+#login .login-hover .h-footer span:first-child {
+    background: #e91e63;
+    padding: 8px 30px;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+
+#login .login-hover .h-footer span:first-child a {
+    color: #fff;
+}
+
+#login .login-hover .h-footer span:last-child {
+    background: #b1b5ad;
+    padding: 8px 30px;
+    border-radius: 20px;
+}
+
+#login .login-hover .h-footer span:last-child a {
+    color: #666;
+}
+
+/* 歌手信息 */
+.conbox {
+    height: 350px;
+    position: relative;
+}
+
+.conbox #back {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 400px;
+    z-index: -100;
+    opacity: 0.4;
+    filter: blur(5rem);
+}
+
+.conbox .con {
+    height: 300px;
+    width: 1400px;
+    margin: 50px auto;
+    z-index: 2;
+}
+
+.conbox .con .c-left {
+    float: left;
+    height: 300px;
+    width: 300px;
+}
+
+.conbox .con .c-left img {
+    height: 300px;
+    width: 300px;
+}
+
+.conbox .con .c-right {
+    float: left;
+    padding-top: 10px;
+    margin-left: 55px;
+}
+
+.conbox .con .c-right h2 {
+    font-size: 28px;
+    color: #333;
+    height: 40px;
+    overflow: hidden;
+}
+
+.conbox .con .c-right .singer img {
+    height: 12px;
+    width: 12px;
+    margin-right: 13px;
+    background: #a9a9a9;
+    border-radius: 50%;
+}
+
+.conbox .con .c-right .singer a {
+    text-decoration: none;
+    color: #333;
+    font-size: 12px;
+}
+
+.conbox .con .c-right .about {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.conbox .con .c-right .about p {
+    width: 100%;
+    font-size: 12px;
+    line-height: 32px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: #333;
+}
+
+.conbox .con .c-right .btnbox {
+    margin-top: 25px;
+}
+
+.conbox .con .c-right .btnbox .btn {
+    border-radius: 18px;
+    float: left;
+    color: #333;
+    border: 1px solid #666;
+    overflow: hidden;
+    margin-right: 20px;
+    display: flex;
+}
+
+.conbox .con .c-right .btnbox .btn:hover {
+    background: #fff;
+}
+
+.conbox .con .c-right .btnbox .btn:first-child {
+    border: 1px solid #e91e63;
+    background-color: #e91e63;
+}
+
+.conbox .con .c-right .btnbox .btn a {
+    display: block;
+    color: #333;
+    height: 34px;
+    line-height: 34px;
+    padding: 0 20px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.conbox .con .c-right .btnbox .btn:first-child a {
+    color: #fff;
+}
+
+.conbox .con .c-right .btnbox .btn a img {
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+    vertical-align: middle;
+}
+
+/* 歌词部分 */
+.mainbox {
+    margin-top: 60px;
+    position: relative;
+}
+
+.mainbox .main {
+    width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mainbox .main .main-con {
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 30px;
+}
+
+.mainbox .main .main-con title {
+    line-height: 36px;
+    font-size: 24px;
+    color: #333;
+    font-weight: 1000;
+}
+
+.mainbox .main .main-con .m-text {
+    max-height: 455px;
+    overflow: hidden;
+    transition: max-height 0.3s;
+    margin-top: 24px;
+}
+
+.mainbox .main .main-con .m-text p {
+    font-size: 14px;
+    line-height: 30px;
+    color: #333;
+}
+
+.mainbox .main .main-con .btnshow {
+    height: 30px;
+    line-height: 30px;
+    color: #e91e63;
+    cursor: pointer;
+    position: absolute;
+}
+
+/* 页脚 */
+.footerbox {
+    margin-top: 100px;
+    overflow: hidden;
+    height: 385px;
+    background: #16161a;
+}
+
+.footerbox .footer {
+    margin: 50px auto;
+    width: 1400px;
+}
+
+.footerbox .footer .f-top {
+    border-bottom: 1px solid #333;
+    overflow: hidden;
+}
+
+.footerbox .footer .f-top ul li {
+    float: left;
+    width: 25%;
+    position: relative;
+}
+
+.footerbox .footer .f-top ul li p:first-child {
+    font-weight: 400px;
+    color: #999;
+    margin-bottom: 30px;
+}
+
+.footerbox .footer .f-top ul li p {
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+
+.footerbox .footer .f-top ul li p a {
+    color: #666;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.footerbox .footer .f-top ul li p a:hover {
+    color: #e91e63;
+}
+
+.footerbox .footer .f-top ul li p a img {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-right: 40px;
+}
+
+.footerbox .footer .f-top ul li .music {
+    position: absolute;
+    top: 170px;
+    left: 25px;
+    font-size: 12px;
+}
+
+.footerbox .footer .f-top ul li .video {
+    position: absolute;
+    top: 170px;
+    left: 165px;
+    font-size: 12px;
+}
+
+.footerbox .footer .f-bottom .link {
+    padding: 20px 0;
+}
+
+.footerbox .footer .f-bottom .link a {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.footerbox .footer .f-bottom .link a img {
+    width: 24px;
+    height: 24px;
+}
+
+.footerbox .footer .f-bottom .copy span {
+    font-size: 12px;
+    color: #666;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.footerbox .footer .f-bottom .copy span:last-child {
+    float: right;
+}
+
+/* 悬浮按钮 */
+.on-off {
+    position: absolute;
+    top: 200px;
+    right: 0px;
+}
+
+.on-off ul li {
+    width: 54px;
+    height: 54px;
+    background: #666;
+    margin-bottom: 2px;
+}
+
+.on-off ul li img {
+    width: 34px;
+    height: 34px;
+    margin: 10px 10px;
+}
